@@ -1,0 +1,53 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+
+
+<!--<body>-->
+<div th:fragment="nav">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+            <div class="container">
+                <a class="navbar-brand" th:href="@{/Home/home-page}">SamaSante</a>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                     id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" th:href="@{/patients/list}">Patients</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" th:href="@{/doctors/list}">Docteurs</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" th:href="@{/diseases/list}">Maladies</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" th:href="@{/medicines/list}">Medicaments</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" th:href="@{/Home/contact-US}">Contactez-nous</a>
+                        </li>
+
+                    </ul>
+                    <span class="navbar-text actions">
+                        <a class="login" th:href="@{/login}">Connexion</a>
+                        <a class="btn btn-light action-button" role="button" th:href="@{/register}">Inscription</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<script>
+    clickDownload()
+    {
+        alert("OOP's ! There id not report to be download.");
+    }
+</script>
+    <script src="/nav-bar/js/jquery.min.js"></script>
+    <script src="/nav-bar/bootstrap/js/bootstrap.min.js"></script>
+<!--</body>-->
+
+<!--</html>-->

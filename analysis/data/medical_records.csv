@@ -1,0 +1,11 @@
+age,gender,blood_pressure,cholesterol,blood_sugar,health_risk
+45,Male,130,200,150,1
+50,Female,120,210,160,0
+60,Male,140,220,180,1
+35,Female,110,190,140,0
+40,Male,135,205,155,1
+70,Female,145,230,170,1
+55,Male,125,195,145,0
+30,Female,115,185,130,0
+65,Male,150,240,190,1
+42,Female,128,210,165,0

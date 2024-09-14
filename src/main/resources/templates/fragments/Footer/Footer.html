@@ -1,0 +1,42 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+
+
+<!--<body>-->
+<div th:fragment="footer">
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a th:href="@{/patients/list}">Patients</a></li>
+                            <li><a th:href="@{/doctors/list}">Docteurs</a></li>
+                            <li><a th:href="@{/medicines/list}">Medicaments</a></li>
+                            <li><a th:href="@{/diseases/list}">Maladies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>A propos</h3>
+                        <ul>
+                            <li><a th:href="@{/Home/home-page}">SamaSante</a></li>
+                            <li><a th:href="@{/Home/contact-US}">Contactez-nous</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>SamaSante</h3>
+                        <p>SamaSante est système de Gestion des Dossiers Médicaux Électroniques avec Analyse Prédictive des Risques de Santé</p>
+                    </div>
+
+                </div>
+                <p class="copyright">SamaSante © 2024</p>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="/Footer/js/jquery.min.js"></script>
+<script src="/Footer/bootstrap/js/bootstrap.min.js"></script>
+<!--</body>-->
+
+<!--</html>-->

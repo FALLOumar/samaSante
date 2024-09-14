@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="/Footer/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Footer/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="/Footer/css/Article-List.css">
+    <link rel="stylesheet" href="/Footer/css/Footer-Dark.css">
+    <link rel="stylesheet" href="/Footer/css/styles.css">
+    <link rel="stylesheet" href="/nav-bar/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/nav-bar/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="/nav-bar/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="/nav-bar/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="/nav-bar/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="/nav-bar/css/styles.css">
+    <link rel="stylesheet" href="/nav-bar/css/Team-Boxed.css">
+    <link rel="stylesheet" href="/Home/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Home/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="/Home/css/Article-List.css">
+    <link rel="stylesheet" href="/Home/css/styles.css">
+    <style>
+        /* Additional CSS for custom styling */
+        .text-center {
+            text-align: center;
+        }
+        .intro {
+            margin-top: 20px; /* Optional: Add space at the top */
+        }
+        .container {
+            max-width: 960px; /* Optional: Set a max width for the container */
+        }
+    </style>
+</head>
+
+<body>
+<div th:replace="fragments/nav-bar/nav-bar :: nav"></div>
+
+<div class="article-list">
+    <div class="container">
+
+        <div class="intro text-center">
+            <h2>SamaSante</h2>
+            <p>
+                le Système de Gestion des Dossiers Médicaux Électroniques avec Analyse Prédictive des Risques de Santé représente une
+                avancée significative dans la gestion des informations médicales et
+                l'utilisation de l'analyse prédictive pour optimiser les soins aux patients.
+            </p>
+        </div>
+
+        <div class="row articles">
+            <!-- Articles will go here -->
+        </div>
+    </div>
+</div>
+
+<script src="/Home/js/jquery.min.js"></script>
+<script src="/Home/bootstrap/js/bootstrap.min.js"></script>
+<div th:replace="fragments/Footer/Footer :: footer"></div>
+</body>
+
+</html>
